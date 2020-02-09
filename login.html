@@ -10,7 +10,9 @@
  
 </form>
      <button id="s">Submit</button>
-<div id="userpage"></div>
+<div id="userpage">
+    <h1>Welcome <span class="username"></span></h1>
+      </div>
 <script>
 var username="";
 var passward="";
@@ -26,8 +28,6 @@ fetch('accounts.json')
     for(var i=0; i<accounts.length;i++){
 if (accounts[i].username === username){
 if (accounts[i].passward === passward){
-document.getElementById("userpage").style.display="grid";
-document.querySelector("form").style.display="none";document.querySelector("#s").style.display="none";
 mp()
 }
 } 
@@ -37,8 +37,14 @@ mp()
 }
 )
 function mp(){
-
+    document.getElementById("userpage").style.display="grid";
+document.querySelector("form").style.display="none";
+    document.querySelector("#s").style.display="none";
+    document.querySelectorAll(".username").forEach(function(item){
+        item.innerHTML="username"
+    })
 }
+    mp()
 </script>
   
 
