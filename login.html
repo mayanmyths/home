@@ -1,5 +1,23 @@
 <html><head>
     <title>Mayan Myths Login</title>
+    <style>
+        #userpage h1{
+            text-align:center;
+        }
+        #info{
+            display:grid;
+            grid-template-rows:50% 50%;
+            grid-template-column:25% 25% 25%;
+            height:30vh;
+            width: 80vw;
+            margin-left:10vw;
+            background-color:#efefef;
+        }
+        #info #god{
+            grid-row:1;
+            grid-column:1;
+        }
+    </style>
   </head>
   <body>
 <form>
@@ -12,11 +30,15 @@
      <button id="s">Submit</button>
 <div id="userpage">
     <h1>Welcome <span class="username"></span></h1>
+    <div id="info">
+        <span id="god"></span>
+    </div>
       </div>
 <script>
 var username="";
 var passward="";
 var accounts=[];
+var account{}
 document.getElementById("s").addEventListener("click",
 function(){
 username = document.getElementById("username").value;
@@ -28,6 +50,7 @@ fetch('accounts.json')
     for(var i=0; i<accounts.length;i++){
 if (accounts[i].username === username){
 if (accounts[i].passward === passward){
+    account = accounts[i];
 mp()
 }
 } 
@@ -41,8 +64,9 @@ function mp(){
 document.querySelector("form").style.display="none";
     document.querySelector("#s").style.display="none";
     document.querySelectorAll(".username").forEach(function(item){
-        item.innerHTML=username
+        item.innerHTML=account.username;
     })
+    document.getElementById("god").innerHTML=account.god;
 }
     mp()
 </script>
