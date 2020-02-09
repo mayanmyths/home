@@ -23,8 +23,7 @@ fetch('accounts.json')
   .then(res => res.json())
   .then(json => {
     accounts=json;
-  })
-for(var i=0; i<accounts.length;i++){
+    for(var i=0; i<accounts.length;i++){
 if (accounts[i].username === username){
 if (accounts[i].passward === passward){
 document.getElementById("userpage").style.display="grid";
@@ -33,6 +32,8 @@ mp()
 }
 } 
 }
+})
+
 }
 )
 function mp(){
