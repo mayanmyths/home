@@ -1,10 +1,1 @@
-[
-{
-username: "panda",
-passward: "ryanthepandalovesbamboo"
-},
-{
-username: "bluewhale",
-passward: "stormeyes"
-}
-]
+[{"username":"panda","passward":"ryanthepandalovesbamboo"},{"username":"bluewhale","passward":"stormeyes"}]
