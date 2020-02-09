@@ -1,0 +1,48 @@
+<html><head>
+    <title>Mayan Myths Login</title>
+  </head>
+  <body>
+<form>
+  User name:<br>
+  <input type="text" id="username"><br>
+  User password:<br>
+  <input type="password" id="psw">
+ 
+</form>
+     <button id="s">Submit</button>
+<div id="userpage"></div>
+<script>
+var username="";
+var passward="";
+var accounts = [
+{
+username: "panda",
+passward: "ryanthepanda0913"
+},
+{
+username: "bluewhale",
+passward: "stormeyes"
+}
+]
+document.getElementById("s").addEventListener("click",
+function(){
+username = document.getElementById("username").value;
+passward = document.getElementById("psw").value;
+for(var i=0; i<accounts.length;i++){
+if (accounts[i].username === username){
+if (accounts[i].passward === passward){
+document.getElementById("userpage").style.display="grid";
+document.querySelector("form").style.display="none";document.querySelector("#s").style.display="none";
+mp()
+}
+} 
+}
+}
+)
+function mp(){
+
+}
+</script>
+  
+
+</body></html>
