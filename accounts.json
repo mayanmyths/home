@@ -1,7 +1,5 @@
 [
-  {"username":"panda",
-   "passward":"ryanthepandalovesbamboo",
-   "god":"Itzamma"},
-  {"username":"bluewhale",
-   "passward":"stormeyes",
-   "god":"Chac"}]
+  {"username":"panda","passward":"ryanthepandalovesbamboo","god":"Itzamma","admin":true},
+  
+  
+  {"username":"bluewhale","passward":"stormeyes","god":"Chac","admin":true}]
