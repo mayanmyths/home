@@ -53,6 +53,9 @@
         #csg{
             display:none;
         }
+        #admin{
+        display:none;
+        }
     </style>
   </head>
   <body>
@@ -64,6 +67,10 @@
  
 </form>
      <button id="s">Submit</button>
+      <div id="admin">
+         <datalist id="username">
+    </datalist>
+      </div>
 <div id="userpage">
     <h1>Welcome <span class="username"></span></h1>
     <div id="info">
@@ -88,6 +95,15 @@ var cusername="";
 var cpassword="";
 var cgod="";
 var ccode="";
+fetch('accounts.json')
+  .then(res => res.json())
+  .then(json => {
+    for (var i = 0; i<accounts.legth; i++)
+    {    var optiona=document.createElement("option");
+    optiona.value=accounts[i].username;
+    document.getElementById("username").appendChild(optiona)
+    }
+})
 document.getElementById("create").addEventListener("click",
 function(){
 cusername = document.getElementById("cu").value;
@@ -103,6 +119,7 @@ passward = document.getElementById("psw").value;
 fetch('accounts.json')
   .then(res => res.json())
   .then(json => {
+    
     accounts=json;
     for(var i=0; i<accounts.length;i++){
 if (accounts[i].username === username){
@@ -119,6 +136,7 @@ mp()
 function mp(){
     if(account.admin){
         document.getElementById("csg").style.display="block"
+        document.getElementById("admin").style.display="block"
     }
     document.getElementById("userpage").style.display="grid";
 document.querySelector("form").style.display="none";
