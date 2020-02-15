@@ -2,4 +2,19 @@
   {"username":"panda","passward":"ryanthepandalovesbamboo","god":"Itzamma","admin":true},
   
   
-  {"username":"bluewhale","passward":"stormeyes","god":"Chac","admin":true}]
+  {"username":"bluewhale","passward":"stormeyes","god":"Chac","admin":true}
+
+// Paste Here
+  ,{"username":"kiwi" ,"passward":"tyler","god":"Huracan","admin":false}
+,{"username":"mas","passward":"alla", "god":"none","admin":false}
+,{"username":"pandabamboo","passward":"pandalovesbamboo","god":"Ah-Tabai","admin":false}
+,{"username":"whitetiger","passward":"naturequeen","god":"Ah-Wink-Ir-Masa","admin":false}
+,{"username":"deathrunner","passward":"dewey","god":"Ahulane","admin":false}
+,{"username":"pusheen","passward":"pusheen","god":"Alaghom-Naom-Tzentel","admin":false}
+,{"username":"unicorn","passward":"creationmaster","god":"Alom","admin":false}
+,{"username":"puppy","passward":"puppiesrule","god":"Colop-U-Uichikin","admin":false}
+,{"username":"puppy","passward":"dogs","god":"Kinich Ahau","admin":false}
+
+
+
+]
