@@ -87,7 +87,7 @@
       </div>
 <script>
 var username="";
-var passward="";
+var passwird="";
 var accounts=[];
 var account={}
 var cusername="";
@@ -97,15 +97,15 @@ var ccode="";
 document.getElementById("create").addEventListener("click",
 function(){
 cusername = document.getElementById("cu").value;
-cpassward = document.getElementById("cp").value;
+cpassword = document.getElementById("cp").value;
 cgod = document.getElementById("cg").value;
-ccode = ',{"username:",'+'"'+cusername+'","passward":'+'"'+cpassward+'","god:'+'"'+cgod+'","admin":false}';
+ccode = ',{"username:",'+'"'+cusername+'","passwird":'+'"'+cpassword+'","god:'+'"'+cgod+'","admin":false}';
 document.getElementById("codesnippetr").innerHTML=ccode;
 });
 document.getElementById("s").addEventListener("click",
 function(){ 
 username = document.getElementById("username").value;
-passward = document.getElementById("psw").value;
+password = document.getElementById("psw").value;
 fetch('accounts.json')
   .then(res => res.json())
   .then(json => {
@@ -113,7 +113,7 @@ fetch('accounts.json')
     accounts=json;
     for(var i=0; i<accounts.length;i++){
 if (accounts[i].username === username){
-if (accounts[i].passward === passward){
+if (accounts[i].password === password){
     account = accounts[i];
 mp()
 }
