@@ -99,7 +99,7 @@ function(){
 cusername = document.getElementById("cu").value;
 cpassword = document.getElementById("cp").value;
 cgod = document.getElementById("cg").value;
-ccode = ',{"username:",'+'"'+cusername+'","password":'+'"'+cpassword+'","god:'+'"'+cgod+'","admin":false}';
+ccode = ',{"username":'+'"'+cusername+'","password":'+'"'+cpassword+'","god":"'+cgod+'","admin":false}';
 document.getElementById("codesnippetr").innerHTML=ccode;
 });
 document.getElementById("s").addEventListener("click",
