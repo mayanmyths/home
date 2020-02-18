@@ -56,6 +56,23 @@
         #admin{
         display:none;
         }
+        #usif{
+            display:none;
+        }
+        #usi{
+            position:fixed;
+            height:5vh;
+            width:5vw;
+            background-color:#FEDD00;
+            font-size:3vh;
+            text-align:center;
+        }
+        #usif{
+            position:fixed;
+            width:100vw;
+            height:100vh;
+            background-color:#1f1f1faa;
+        }
     </style>
   </head>
   <body>
@@ -72,6 +89,17 @@
       </div>
 <div id="userpage">
     <h1>Welcome <span class="username"></span></h1>
+    <button id="uis">Complete Account Setup</button>
+    <div id="uisf">
+        <input id="uisf-luckynumber" type="number" placeholder="Ex:9">
+        <input id="usif-color" type="text" placeholder="Ex:Blue">
+        <button id="usif-submit">Submit</button>
+        <div id="usif-confirm">
+            <p id="usif-confirm-text">
+                Your information has been sent to Ryan the Panda. Check your account again in about a day or two.
+            </p>
+        </div>
+        <div>
     <div id="info">
         <span id="god"></span>
     </div>
@@ -94,6 +122,9 @@ var cusername="";
 var cpassword="";
 var cgod="";
 var ccode="";
+document.getElementById("usi").addEventListener("click",function(){
+document.getElementById("usif").style.display="block";
+})
 document.getElementById("create").addEventListener("click",
 function(){
 cusername = document.getElementById("cu").value;
