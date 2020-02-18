@@ -1,17 +1,17 @@
 [
-  {"username":"panda","passward":"ryanthepandalovesbamboo","god":"Itzamma","admin":true},
+  {"username":"panda","password":"ryanthepandalovesbamboo","god":"Itzamma","admin":true},
   
   
-  {"username":"bluewhale","passward":"stormeyes","god":"Chac","admin":true}
-  ,{"username":"kiwi" ,"passward":"tyler","god":"Huracan","admin":false}
-,{"username":"mas","passward":"alla", "god":"none","admin":false}
-,{"username":"pandabamboo","passward":"pandalovesbamboo","god":"Ah-Tabai","admin":false}
-,{"username":"whitetiger","passward":"naturequeen","god":"Ah-Wink-Ir-Masa","admin":false}
-,{"username":"deathrunner","passward":"dewey","god":"Ahulane","admin":false}
-,{"username":"pusheen","passward":"pusheen","god":"Alaghom-Naom-Tzentel","admin":false}
-,{"username":"unicorn","passward":"creationmaster","god":"Alom","admin":false}
-,{"username":"puppy","passward":"puppiesrule","god":"Colop-U-Uichikin","admin":false}
-,{"username":"henry","passward":"dogs","god":"Kinich Ahau","admin":false}
+  {"username":"bluewhale","password":"stormeyes","god":"Chac","admin":true}
+  ,{"username":"kiwi" ,"password":"tyler","god":"Huracan","admin":false}
+,{"username":"mas","password":"alla", "god":"none","admin":false}
+,{"username":"pandabamboo","password":"pandalovesbamboo","god":"Ah-Tabai","admin":false}
+,{"username":"whitetiger","password":"naturequeen","god":"Ah-Wink-Ir-Masa","admin":false}
+,{"username":"deathrunner","password":"dewey","god":"Ahulane","admin":false}
+,{"username":"pusheen","password":"pusheen","god":"Alaghom-Naom-Tzentel","admin":false}
+,{"username":"unicorn","password":"creationmaster","god":"Alom","admin":false}
+,{"username":"puppy","password":"puppiesrule","god":"Colop-U-Uichikin","admin":false}
+,{"username":"henry","password":"dogs","god":"Kinich Ahau","admin":false}
 
 
 
