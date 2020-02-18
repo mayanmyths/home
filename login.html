@@ -98,10 +98,11 @@ var ccode="";
 fetch('accounts.json')
   .then(res => res.json())
   .then(json => {
-    for (var i = 0; i<accounts.legth; i++)
+    accounts=json;
+    for (var i = 0; i<accounts.length; i++)
     {    var optiona=document.createElement("option");
     optiona.value=accounts[i].username;
-    document.getElementById("username").appendChild(optiona)
+    document.getElementById("username").appendChild(optiona);
     }
 })
 document.getElementById("create").addEventListener("click",
