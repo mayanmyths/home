@@ -2,7 +2,7 @@
   {"username":"panda","password":"ryanthepandalovesbamboo","god":"Itzamma","admin":true},
   
   
-  {"username":"bluewhale","password":"stormeyes","god":"Chac","admin":true}
+  {"username":"bluewhale","password":"stormeyes","god":"Chac","favorite color":"blue",admin":true}
   ,{"username":"kiwi" ,"password":"tyler","god":"Huracan","admin":false}
 ,{"username":"mas","password":"alla", "god":"none","admin":false}
 ,{"username":"pandabamboo","password":"pandalovesbamboo","god":"Ah-Tabai","admin":false}
