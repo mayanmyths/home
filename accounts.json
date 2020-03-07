@@ -3,78 +3,91 @@
         "username": "panda",
         "password": "ryanthepandalovesbamboo",
         "god": "Itzamna",
-        "admin": true
+        "admin": true,
+        "hero":"about:blank"
     },
     {
         "username": "bluewhale",
         "password": "stormeyes",
         "god": "Chac",
-        "admin": true
+        "admin": true,
+        "hero":"https://mayanmyths.github.io/home/Braxton%20Hero.png"
     },
     {
         "username": "kiwi",
         "password": "tyler",
         "god": "Huracan",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "mas",
         "password": "alla",
         "god": "none",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "pandabamboo",
         "password": "pandalovesbamboo",
         "god": "Ah-Tabai",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "whitetiger",
         "password": "naturequeen",
         "god": "Ah-Wink-Ir-Masa",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "deathrunner",
         "password": "dewey",
         "god": "Ahulane",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "pusheen",
         "password": "pusheen",
         "god": "Alaghom-Naom-Tzentel",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "unicorn",
         "password": "creationmaster",
         "god": "Alom/Hunahpu-Gutch",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "puppy",
         "password": "puppiesrule",
         "god": "Colop-U-Uichikin",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "henry",
         "password": "dogs",
         "god": "Kinich Ahau",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "hermione",
         "password": "Hermione",
         "god": "Ahau-Chamahez",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     },
     {
         "username": "TEST",
         "password": "TEST",
         "god": "TEST",
-        "admin": false
+        "admin": false,
+        "hero":"about:blank"
     }
 ]
