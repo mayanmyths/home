@@ -98,7 +98,7 @@
 <div id="userpage">
     <h1>Welcome <span class="username"></span></h1>
     <button id="uis">Complete Account Setup</button>
-  
+  <img id="heroimg">
     <div id="info">
         <span id="god"></span>
     </div>
@@ -169,6 +169,7 @@ document.querySelector("form").style.display="none";
     document.querySelectorAll(".username").forEach(function(item){
         item.innerHTML=account.username;
     })
+    document.getElementById("heroimg").src=account.hero;
     document.getElementById("god").innerHTML="God: "+account.god;
 }
 </script>
