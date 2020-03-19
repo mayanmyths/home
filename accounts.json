@@ -4,90 +4,97 @@
         "password": "ryanthepandalovesbamboo",
         "god": "Itzamna",
         "admin": true,
-        "hero":"https://mayanmyths.github.io/home/Ryan%20Hero.png"
+        "stadus": "helper"
     },
     {
         "username": "bluewhale",
         "password": "stormeyes",
         "god": "Chac",
         "admin": true,
-        "hero":"https://mayanmyths.github.io/home/Braxton%20Hero.png"
+        "stadus": "leader"
     },
     {
         "username": "kiwi",
         "password": "tyler",
         "god": "Huracan",
         "admin": false,
-        "hero":"https://mayanmyths.github.io/home/Tyler%20Hero.png"
+        "stadus": "leader"
     },
     {
         "username": "mas",
         "password": "alla",
         "god": "none",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "none"
     },
     {
         "username": "pandabamboo",
         "password": "pandalovesbamboo",
         "god": "Ah-Tabai",
         "admin": false,
-        "hero":"https://mayanmyths.github.io/home/Anna%20Hero.png"
+        "stadus": "colead"
     },
     {
         "username": "whitetiger",
         "password": "naturequeen",
         "god": "Ah-Wink-Ir-Masa",
         "admin": false,
-        "hero":"https://mayanmyths.github.io/home/Laila%20Hero.png"
+        "stadus": "helper"
     },
     {
         "username": "deathrunner",
         "password": "dewey",
         "god": "Ahulane",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "hand man"
     },
     {
         "username": "pusheen",
         "password": "pusheen",
         "god": "Alaghom-Naom-Tzentel",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "none"
     },
     {
         "username": "unicorn",
         "password": "creationmaster",
-        "god": "Alom/Hunahpu-Gutch",
+        "god": "Alom",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "helper"
     },
     {
         "username": "puppy",
         "password": "puppiesrule",
         "god": "Colop-U-Uichikin",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "colead"
     },
     {
         "username": "henry",
         "password": "dogs",
         "god": "Kinich Ahau",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "colead"
     },
     {
         "username": "hermione",
         "password": "hogwarts",
         "god": "Ahau-Chamahez",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "helper"
     },
     {
         "username": "TEST",
         "password": "TEST",
         "god": "TEST",
         "admin": false,
-        "hero":"about:blank"
+        "stadus": "none"
+    },
+    {
+        "username": "Hermione1776",
+        "password": "TheDecendants",
+        "god": "magic animals",
+        "admin": false,
+        "stadus": "leader"
     }
-]
+]]
