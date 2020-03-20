@@ -4,21 +4,24 @@
         "password": "ryanthepandalovesbamboo",
         "god": "Itzamna",
         "admin": true,
-        "stadus": "helper"
+        "stadus": "helper",
+        "hero" : "Ryan%20Hero.png"
     },
     {
         "username": "bluewhale",
         "password": "stormeyes",
         "god": "Chac",
         "admin": true,
-        "stadus": "leader"
+        "stadus": "leader",
+        "hero" : "Braxton%20Hero.png"
     },
     {
         "username": "kiwi",
         "password": "tyler",
         "god": "Huracan",
         "admin": false,
-        "stadus": "leader"
+        "stadus": "leader",
+        "hero" : "Tyler%20Hero.png"
     },
     {
         "username": "mas",
@@ -32,14 +35,16 @@
         "password": "pandalovesbamboo",
         "god": "Ah-Tabai",
         "admin": false,
-        "stadus": "colead"
+        "stadus": "colead",
+        "hero" : "Anna%20Hero.png"
     },
     {
         "username": "whitetiger",
         "password": "naturequeen",
         "god": "Ah-Wink-Ir-Masa",
         "admin": false,
-        "stadus": "helper"
+        "stadus": "helper",
+        "hero" : "Laila%20Hero.png"
     },
     {
         "username": "deathrunner",
